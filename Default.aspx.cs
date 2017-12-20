@@ -9,7 +9,7 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Label1.Text = "The server's fucking IP is this: " + DyndnsIP() + ". Fuck you!.<br/>Also, the current date is : " + DateTime.Now.ToString() + "<br/>Current Machine name: " + System.Environment.MachineName;
+        Label1.Text = "The server's IP is this: " + DyndnsIP() + ". <br/>Also, the current date is : " + DateTime.Now.ToString() + "<br/>Current Machine name: " + System.Environment.MachineName;
     }
 
     private string DyndnsIP()
